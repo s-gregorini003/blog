@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on ethok</title>
+    <link>https://s-gregorini003.github.io/blog/page/</link>
+    <description>Recent content in Pages on ethok</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2020 13:03:37 +0100</lastBuildDate><atom:link href="https://s-gregorini003.github.io/blog/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://s-gregorini003.github.io/blog/page/about/</link>
+      <pubDate>Fri, 01 May 2020 13:03:37 +0100</pubDate>
+      
+      <guid>https://s-gregorini003.github.io/blog/page/about/</guid>
+      <description>My name is Silvio Gregorini, I am an engineer and aspiring researcher interested in how machine learning can be applied to deploy innovative digital music tools. I graduated from Leeds Beckett University with an MSc in Audio Engineering and received the &amp;ldquo;Solid State Logic Award for Highest Achieving Postgraduate Student&amp;rdquo;. I passed with Distinction with a thesis titled Small-Footprint Keyword Spotting System for Low Power Applications Using Convolutional Neural Networks.</description>
+    </item>
+    
+  </channel>
+</rss>

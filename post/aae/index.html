@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Silvio Gregorini ">
+<meta name="description" content="This blog post is to summarise a research project conducted at the beginning of 2019 as part of the Advanced Audio Engineering module (MSc Audio Engineering, Leeds Beckett University). The project discusses the potentials of achieving high performance in terms of sound absorption through additive manufacturing techniques.
+The absorbers are designed to exploit the principle of passive destructive interference (PDI) and manufactured using a commercially available fused deposition modeling (FDM) 3D printer." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://s-gregorini003.github.io/blog/post/aae/" />
+
+
+    <title>
+        
+            3D Printed Acoustic Absorbers :: ethok 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/blog/main.393856bf2c430bb6c01d7af07c6fe966e7cce8073435cfbbc46e590bab7405ef.css">
+
+
+
+
+
+
+<meta itemprop="name" content="3D Printed Acoustic Absorbers">
+<meta itemprop="description" content="This blog post is to summarise a research project conducted at the beginning of 2019 as part of the Advanced Audio Engineering module (MSc Audio Engineering, Leeds Beckett University). The project discusses the potentials of achieving high performance in terms of sound absorption through additive manufacturing techniques.
+The absorbers are designed to exploit the principle of passive destructive interference (PDI) and manufactured using a commercially available fused deposition modeling (FDM) 3D printer."><meta itemprop="datePublished" content="2020-06-10T08:45:42&#43;01:00" />
+<meta itemprop="dateModified" content="2020-06-10T08:45:42&#43;01:00" />
+<meta itemprop="wordCount" content="690"><meta itemprop="image" content="https://s-gregorini003.github.io/blog/"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://s-gregorini003.github.io/blog/"/>
+
+<meta name="twitter:title" content="3D Printed Acoustic Absorbers"/>
+<meta name="twitter:description" content="This blog post is to summarise a research project conducted at the beginning of 2019 as part of the Advanced Audio Engineering module (MSc Audio Engineering, Leeds Beckett University). The project discusses the potentials of achieving high performance in terms of sound absorption through additive manufacturing techniques.
+The absorbers are designed to exploit the principle of passive destructive interference (PDI) and manufactured using a commercially available fused deposition modeling (FDM) 3D printer."/>
+
+
+
+    <meta property="og:title" content="3D Printed Acoustic Absorbers" />
+<meta property="og:description" content="This blog post is to summarise a research project conducted at the beginning of 2019 as part of the Advanced Audio Engineering module (MSc Audio Engineering, Leeds Beckett University). The project discusses the potentials of achieving high performance in terms of sound absorption through additive manufacturing techniques.
+The absorbers are designed to exploit the principle of passive destructive interference (PDI) and manufactured using a commercially available fused deposition modeling (FDM) 3D printer." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://s-gregorini003.github.io/blog/post/aae/" /><meta property="og:image" content="https://s-gregorini003.github.io/blog/"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2020-06-10T08:45:42&#43;01:00" />
+<meta property="article:modified_time" content="2020-06-10T08:45:42&#43;01:00" /><meta property="og:site_name" content="ethok" />
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2020-06-10 08:45:42 &#43;0100 BST" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/blog/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://s-gregorini003.github.io/blog/page/about/">about</a></li><li><a href="https://s-gregorini003.github.io/blog/post">posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+	
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://s-gregorini003.github.io/blog/post/aae/">3D Printed Acoustic Absorbers</a></h2>
+
+            
+
+            
+
+            <div class="post-content">
+                <p>This blog post is to summarise a research project conducted at the beginning of 2019 as part of the Advanced Audio Engineering module (MSc Audio Engineering, Leeds Beckett University). The project discusses the potentials of achieving high performance in terms of sound absorption through additive manufacturing techniques.</p>
+<p>The absorbers are designed to exploit the principle of passive destructive interference (PDI) and manufactured using a commercially available fused deposition modeling (FDM) 3D printer. The specimen are cylindrical and produced with cavities of different lengths. The absorption coefficient is evaluated using an impedance tube and following the specifications of the standard <a href="https://shop.bsigroup.com/ProductDetail?pid=000000000030069842">BS EN ISO 10534-2:2001</a>.</p>
+<p>The results show that significant sound absorption can be achieved, although some absorption peaks do not match the expected frequencies. This may be caused by turbulence and resonance phenomena, especially in samples with greater diameter of the cavity. Futher investigation is required, but the potential of these technologies in terms of efficiency over manufacturing cost and absorber size is undoubted.</p>
+<hr>
+<h2 id="introduction">Introduction</h2>
+<p>The aim of the project is to design and manufacture Passive Destructive Interference (PDI) absorbers using Additive Manufacturing (AM) techniques and then to evaluate their performance through a low cost, self-built impedance tube. The main outcome of the measurement process is a set of diagrams of the normal absorption factor of the specimens as a function of frequency in a mid-low spectrum range. The sound absorption curves will be then analyzed to determine the effects of the tested geometries and to verify if the experimental results agree with the values expected from the samples in the design phase.</p>
+<h2 id="theory-and-methodology">Theory and Methodology</h2>
+<p>The investigated devices are designed to absorb specific frequencies through passive destructive interference. These frequencies depend mainly on the specimen&rsquo;s geometry, and can be calculated in advance through the following equation</p>
+<p>$$f_n = \frac{(2n - 1)* c}{2L}$$</p>
+<p>where <em>L</em> (m) is the length of the cavity and <em>c</em> (m/s) is the speed of sound in the air.</p>
+<figure>
+    <img src="/img/aae/sample-A-specs.png"
+         alt="Specification and design of a specimen."/> <figcaption>
+            <p>Specification and design of a specimen.</p>
+        </figcaption>
+</figure>
+
+<p>I designed the samples in SolidWorks and manufactured with an AthorBot Brother Desktop 3D Printer. To test different materials, both geometries were printed in ABS and PETG.</p>
+<figure>
+    <img src="/img/aae/specimen1.jpg"
+         alt="Two specimen used for measurement." width="600px"/> <figcaption>
+            <p>Two specimen used for measurement.</p>
+        </figcaption>
+</figure>
+
+<p>The measurement of the absorption coefficient was conducted according to the <em>two-micophone technique</em> detailed in <a href="https://shop.bsigroup.com/ProductDetail?pid=000000000030069842">BS EN ISO 10534-2:2001</a>. The biggest issue faced in this project was to find an impedance tube to conduct the evaluation. Since my university had part of the equipment (microphones, soundcard, speakers&hellip;), in the end I decided to build a low-cost impedance tube. I built it out of pvc pipes, hydraulic seals, and I added an Arduino Uno with an OLED display and temperature/humidity sensors to keep track of the environmental conditions. To calibrate the tube and conduct the measuring process - which consisted in measuring the cross-transfer function and then calculating the absorption coefficient - I used the software <a href="https://www.holmarc.com/softwares/impedance_tube_software.rar">Holmarc Wave Analyzer 4C </a>.</p>
+<figure>
+    <img src="/img/aae/TestEquipmentDiagram.png"
+         alt="Measurement test equipment layout." width="800px"/> <figcaption>
+            <p>Measurement test equipment layout.</p>
+        </figcaption>
+</figure>
+
+<h2 id="findings">Findings</h2>
+<p>For each specimen, measurements are taken in the frequency interval 100-3200 Hz. The normal sound absorption curves are analysed through the evaluation of two values:</p>
+<ul>
+<li>The frequency of peak sound absorption</li>
+<li>The frequency range between the values on both sides of the peak where half the peak sound absorption occurs.</li>
+</ul>
+<p>Using those values, the effects of the tested geometries can be determined and compared to the expected theoretical values. The results show that significant sound absorption has been achieved. The sound absorption coefficient reaches values of 0.87 at peak frequencies in the range considered. However, it must be noted that the absorption bandwidth is relatively narrow and that many relatively lower peaks can be attributed to the unprofessional measuring equipment.</p>
+<p>For example, the following figure shows that the predicted frequency of the peaks for sample A is respected mainly in the lower range, while they are slightly shifted in the mid-upper range considered, probably due to production defects in the specimen.</p>
+<figure>
+    <img src="/img/aae/sample-A-results.png"
+         alt="Measured absorption coefficient for sample A compared to predicted peak frequencies."/> <figcaption>
+            <p>Measured absorption coefficient for sample A compared to predicted peak frequencies.</p>
+        </figcaption>
+</figure>
+
+<hr>
+<p>Thanks for reading! If you want to have a look at the full article, you can find it <a href="https://www.researchgate.net/publication/343628647_Measurement_of_the_Absorption_Coefficient_for_Destructive_Interference_Absorbers_Produced_by_Additive_Manufacturing">here</a>.</p>
+<h2 id="references">References</h2>
+<ul>
+<li>
+<p><a href="https://www.researchgate.net/publication/281005456_Sound_absorption_and_additive_manufacturing">Sound absorption and additive manufacturing</a></p>
+</li>
+<li>
+<p><a href="https://www.emerald.com/insight/content/doi/10.1108/13552540710824805/full/html">Implications of solid freeform fabrication on acoustic absorbers</a></p>
+</li>
+</ul>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+                <span><a href="https://s-gregorini003.github.io/blog/">Silvio Gregorini</a></span>
+            
+            
+  
+        </div>
+    </div>
+ 
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/blog/bundle.min.a0f363fdf81cdc5cfacc447a79c33189eb000d090336cd04aac8ee256f423b3133b836c281944c19c75e38d0b0b449f01ce5807e37798b7ac94ac1db51983fc4.js" integrity="sha512-oPNj/fgc3Fz6zER6ecMxiesADQkDNs0EqsjuJW9COzEzuDbCgZRMGcdeONCwtEnwHOWAfjd5i3rJSsHbUZg/xA=="></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-175164530-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+    </body>
+</html>

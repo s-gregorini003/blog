@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ethok</title>
+    <link>https://s-gregorini003.github.io/blog/post/</link>
+    <description>Recent content in Posts on ethok</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Aug 2020 09:31:28 +0100</lastBuildDate><atom:link href="https://s-gregorini003.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Send Large JSON Data to IoT Hub Using MQTT</title>
+      <link>https://s-gregorini003.github.io/blog/post/nano33iotazure/</link>
+      <pubDate>Mon, 24 Aug 2020 09:31:28 +0100</pubDate>
+      
+      <guid>https://s-gregorini003.github.io/blog/post/nano33iotazure/</guid>
+      <description>This article is to demonstrate how to program an Arduino Nano 33 IoT board to communicate with Microsoft Azure. With a quick Google search, you would find out that there&amp;rsquo;s already a library with all the functions required to share messages between Azure and Arduino boards. It is called AzureIoTHub and is the IoT Hub&amp;rsquo;s official Arduino library, published by Azure as a port of the Microsoft Azure IoT device SDK for C).</description>
+    </item>
+    
+    <item>
+      <title>Noise and Vibration Analysis of 3D Printers</title>
+      <link>https://s-gregorini003.github.io/blog/post/ac/</link>
+      <pubDate>Thu, 18 Jun 2020 08:45:42 +0100</pubDate>
+      
+      <guid>https://s-gregorini003.github.io/blog/post/ac/</guid>
+      <description>This post is on a project made at the beginning 2020 in which I had to analyse and mitigate the noise emitted by a desktop 3D printer. Here I cover the methodology used to conduct the measurements, which differs a bit from the standards, given the limited equipment available.
+TL;DR To evaluate the structure-borne sound, the only calibrated instrument I could find was an old, single-axis vibration sensor, without the option to collect either octave band or one-third-octave band measurements.</description>
+    </item>
+    
+    <item>
+      <title>3D Printed Acoustic Absorbers</title>
+      <link>https://s-gregorini003.github.io/blog/post/aae/</link>
+      <pubDate>Wed, 10 Jun 2020 08:45:42 +0100</pubDate>
+      
+      <guid>https://s-gregorini003.github.io/blog/post/aae/</guid>
+      <description>This blog post is to summarise a research project conducted at the beginning of 2019 as part of the Advanced Audio Engineering module (MSc Audio Engineering, Leeds Beckett University). The project discusses the potentials of achieving high performance in terms of sound absorption through additive manufacturing techniques.
+The absorbers are designed to exploit the principle of passive destructive interference (PDI) and manufactured using a commercially available fused deposition modeling (FDM) 3D printer.</description>
+    </item>
+    
+    <item>
+      <title>volca_boy[1] // Initial Design</title>
+      <link>https://s-gregorini003.github.io/blog/post/volca-boy-1/</link>
+      <pubDate>Sun, 31 May 2020 18:01:50 +0100</pubDate>
+      
+      <guid>https://s-gregorini003.github.io/blog/post/volca-boy-1/</guid>
+      <description>IMPORTANT NOTICE Unfortunately, due to the Covid-19 pandemic, this project is currently paused. The reason is that I had to leave my house in Leeds and temporarily return to my hometown in Italy, leaving most of my stuff in the UK. I really hope to go back as soon as possible and continue this journey.
+Do More, with Less For those unfamiliar with the term, chiptune (also known as chipmusic, micromusic or 8-bit music) is a style of electronic music derived from the sound chips that, in the first generation of computers and gaming consoles, were used to balance the processing power of generating sound effects and music from the CPU.</description>
+    </item>
+    
+    <item>
+      <title>volca_boy[0] // Project Summary</title>
+      <link>https://s-gregorini003.github.io/blog/post/volca-boy-0/</link>
+      <pubDate>Sun, 03 May 2020 16:13:46 +0100</pubDate>
+      
+      <guid>https://s-gregorini003.github.io/blog/post/volca-boy-0/</guid>
+      <description>IMPORTANT NOTICE Unfortunately, due to the Covid-19 pandemic, this project is currently paused. The reason is that I had to leave my house in Leeds and temporarily return to my hometown in Italy, leaving most of my stuff in the UK. I really hope to go back as soon as possible and continue this journey.
+Volca Boy is a modding project aimed at turning a 1989 Game Boy into a portable synthesizer/sequencer.</description>
+    </item>
+    
+  </channel>
+</rss>
