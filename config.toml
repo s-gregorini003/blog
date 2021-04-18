@@ -1,0 +1,106 @@
+baseurl = "https://s-gregorini003.github.io/blog/"
+title = "ethok"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+googleAnalytics = "UA-175164530-1"
+
+
+[author]
+name = "Silvio Gregorini"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "02-01-2006"
+  dateformNumTime = "02-01-2006 15:04"
+  
+  # Subtitle for home
+  homeSubtitle = "The sky above this website was the colour of television, tuned to a dead channel"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you linke
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "Silvio Gregorini is an enthusiast MSc Audio Engineering graduate currently looking for PhD opportunities in AI techniques applied to audio and music."
+  keywords = "homepage, blog, resume, CV, website"
+  images = [""]
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  
+  [[params.social]]
+    name = "linkedin"
+	url = "https://www.linkedin.com/in/s-gregorini003/"
+	
+  [[params.social]]
+	name = "github"
+	url = "https://github.com/s-gregorini003"
+	
+  [[params.social]]
+    name = "email"
+	url = "mailto:silvio.gregorini@outlook.com"
+	
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "ethok"
+    subtitle = ""
+    keywords = ""
+    # copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "$ cd /home/"
+      logoHomeLink = "/blog/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "posts"
+    name       = "posts"
+    url        = "/post"
+
+	[[menu.main]]
+	identifier = "about"
+    name 	   = "about"
+    url		   = "page/about/"
+
+#[[menu.main]]
+#    name = "Blog"
+#    url = "post/"
+#    weight = 1
+
+
+#[[menu.main]]
+#    identifier = "projects"
+#    name = "Projects"
+#    weight = 2
+
+#[[menu.main]]
+#    parent = "projects"
+#    name = "Volca Boy"
+#    url = "post/volca-boy-0"
+#    weight = 1
+
+#[[menu.main]]
+#    parent = "projects"
+#    name = "Math Sample"
+#    url = "post/2017-03-05-math-sample"
+#    weight = 2
+
+#[[menu.main]]
+#    parent = "projects"
+#    name = "Code Sample"
+#    url = "post/2016-03-08-code-sample"
+#    weight = 3
